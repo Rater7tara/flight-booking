@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Banner.css';
 import transfer from '../../assets/transfer.png';
 
@@ -7,9 +7,76 @@ import transfer from '../../assets/transfer.png';
 const Banner = () => {
 
     const [selectedTab, setSelectedTab] = useState('flight');
+    const [flight, setFlight] = useState([]);
+    const [flightData, setFlightData] = useState([]);
+    const [flightDataTemp, setFlightDataTemp] = useState([]);
+    const [filteredData, setFilteredData] = useState([]);
+    const [searchValue, setSearchValue] = useState("");
+    const [switchSearch, setSwitchSearch] = useState([]);
+    const [sortBy, setSortBy] = useState("");
+
+
+    useEffect(() => {
+        fetch('data.json')
+        .then(res => res.json())
+        .then(data => setFlight(data))
+        .catch(error => console.error(error))
+    }, [])
+
+
+    useEffect(() => {
+
+        const searchTemp = flightData.filter(value => value.city.toLowerCase().includes(searchValue.toLowerCase()));
+
+        setFlightDataTemp(searchTemp);
+        console.log(switchSearch);
+        if (searchValue != "" || searchValue != "") {
+            setSwitchSearch(flightDataTemp)
+        }
+        else {
+            setSwitchSearch(flightData);
+        }
+
+    }, [searchValue, flightData]);
+
+     // Function to handle sorting based on the selected option
+     useEffect(() => {
+        if (sortBy) {
+            // Clone the array to avoid mutating the original array
+            const sortedData = [...flightData].sort((a, b) => {
+                if (sortBy === 'price') {
+                    return a.price.localeCompare(b.price);
+                } else if (sortBy === 'rating') {
+                    return a.rating.localeCompare(b.rating);
+                }
+                return 0;
+            });
+            setLocalData(sortedData);
+        }
+    }, [sortBy]);
+
+
+
+    // const fetchData = async () => {
+    //     try {
+    //         const response = await fetch('http://localhost:5000/flights');
+    //         const data = await response.json();
+    //         setData(data);
+    //         setFilteredData(data); 
+    //     } catch (error) {
+    //         console.error('Error fetching data:', error);
+    //     }
+    // };
 
     const handleTabChange = (tab) => {
         setSelectedTab(tab);
+    };
+
+    const handleSearch = () => {
+        const filtered = data.filter(item =>
+            item.name.toLowerCase().includes(searchQuery.toLowerCase())
+        );
+        setFilteredData(filtered);
     };
 
 
@@ -41,7 +108,13 @@ const Banner = () => {
                         <div className='flex flex-col bg-white rounded-lg w-2/3'>
                             <label htmlFor="departureCity" className='text-gray-400 text-sm rounded-lg short-text p-1 mx-5'>From:</label>
 
-                            <input type="text" id="departureCity" placeholder='Departure'
+                            <input type="text" 
+                            onChange={(e) => {
+                                const value = e.target.value;
+
+                                setSearchValue(value);
+                            }}
+                            value={searchValue}id="departureCity" placeholder='Departure'
                                 required className="w-50  mt-2 mb-2 text-lg mx-5 ps-1" />
                         </div>
 
@@ -83,8 +156,8 @@ const Banner = () => {
 
                     </div>
                     <div className="mt-2 search-div">
-                        <button className="btn btn-warning search-btn text-white font-bold hover:bg-yellow-600">Search</button>
-                    </div>
+                <button onClick={handleSearch} className="btn btn-warning search-btn text-white font-bold hover:bg-yellow-600">Search</button>
+            </div>
 
                 </div>
             )}
@@ -138,9 +211,9 @@ const Banner = () => {
                         </div>
 
                     </div>
-                    <div className="search-div">
-                        <button className="btn btn-warning search-btn text-white font-bold hover:bg-yellow-600">Search</button>
-                    </div>
+                    <div className="mt-2 search-div">
+                <button onClick={handleSearch} className="btn btn-warning search-btn text-white font-bold hover:bg-yellow-600">Search</button>
+            </div>
                     {/* end of section */}
 
                 </div>

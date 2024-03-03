@@ -1,0 +1,93 @@
+[
+    {
+        "id": 33,
+        "country": "Egypt",
+        "city": "Cairo",
+        "airportId": "CAI",
+        "airportName": "Cairo International Airport"
+    },
+    {
+        "id": 34,
+        "country": "Greece",
+        "city": "Athens",
+        "airportId": "ATH",
+        "airportName": "Athens International Airport"
+    },
+    {
+        "id": 35,
+        "country": "Portugal",
+        "city": "Lisbon",
+        "airportId": "LIS",
+        "airportName": "Lisbon Airport"
+    },
+    {
+        "id": 36,
+        "country": "Malaysia",
+        "city": "Kuala Lumpur",
+        "airportId": "KUL",
+        "airportName": "Kuala Lumpur International Airport"
+    },
+    {
+        "id": 37,
+        "country": "Hong Kong",
+        "city": "Hong Kong",
+        "airportId": "HKG",
+        "airportName": "Hong Kong International Airport"
+    },
+    {
+        "id": 38,
+        "country": "Czech Republic",
+        "city": "Prague",
+        "airportId": "PRG",
+        "airportName": "Václav Havel Airport Prague"
+    },
+    {
+        "id": 39,
+        "country": "New Zealand",
+        "city": "Auckland",
+        "airportId": "AKL",
+        "airportName": "Auckland Airport"
+    },
+    {
+        "id": 40,
+        "country": "Ireland",
+        "city": "Dublin",
+        "airportId": "DUB",
+        "airportName": "Dublin Airport"
+    },
+    {
+        "id": 41,
+        "country": "Hungary",
+        "city": "Budapest",
+        "airportId": "BUD",
+        "airportName": "Budapest Ferenc Liszt International Airport"
+    },
+    {
+        "id": 42,
+        "country": "Chile",
+        "city": "Santiago",
+        "airportId": "SCL",
+        "airportName": "Arturo Merino Benítez International Airport"
+    },
+    {
+        "id": 43,
+        "country": "Philippines",
+        "city": "Manila",
+        "airportId": "MNL",
+        "airportName": "Ninoy Aquino International Airport"
+    },
+    {
+        "id": 44,
+        "country": "Pakistan",
+        "city": "Islamabad",
+        "airportId": "ISB",
+        "airportName": "Islamabad International Airport"
+    },
+    {
+        "id": 45,
+        "country": "Romania",
+        "city": "Bucharest",
+        "airportId": "OTP",
+        "airportName": "Henri Coandă International Airport"
+    }
+]

@@ -1,0 +1,250 @@
+.bookcard{
+    width: 72%;
+    margin-top: 2rem;
+}
+.logo-div{
+    width: 6rem;
+    margin-right: 1rem;
+
+}
+.logoBook{
+    width: 5rem;
+}
+
+.time-div{
+    width: 34rem;
+}
+.book-end-div{
+    width: 13rem;
+}
+.plane-logo{
+    width: 3rem;
+}
+
+
+/* 1st Mobile device */
+@media screen and (max-width:576px) {
+    .booking-div{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    .bookcard{
+        width: 100%;
+    }
+    .logo-div{
+        width: 6rem;
+        border: none;
+        margin: auto;
+        padding-bottom: 2rem;
+    
+    }
+    .logoBook{
+        width: 5rem;
+    }
+    
+    .time-div{
+        width: 100%;
+        border: none;
+        margin: auto;
+        padding-bottom: 3rem;
+    }
+    .time h1{
+        font-size: 18px;
+    }
+    .time h3{
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .book-end-div{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .plane-logo{
+        width: 2rem;
+    }
+}
+
+
+/* 2nd Mobile device */
+@media screen and (min-width:360px) and (max-width:575px) {
+    .booking-div{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    .bookcard{
+        width: 100%;
+    }
+    .logo-div{
+        width: 6rem;
+        border: none;
+        margin: auto;
+        padding-bottom: 2rem;
+    
+    }
+    .logoBook{
+        width: 5rem;
+    }
+    
+    .time-div{
+        width: 100%;
+        border: none;
+        margin: auto;
+        padding-bottom: 3rem;
+    }
+    .time h1{
+        font-size: 18px;
+    }
+    .time h3{
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .book-end-div{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .plane-logo{
+        width: 2rem;
+    }
+}
+
+/* 3rd Mobile device */
+@media screen and (min-width:280px) and (max-width:359px){
+    .booking-div{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    .bookcard{
+        width: 100%;
+    }
+    .logo-div{
+        width: 6rem;
+        border: none;
+        margin: auto;
+        padding-bottom: 2rem;
+    
+    }
+    .logoBook{
+        width: 5rem;
+    }
+    
+    .time-div{
+        width: 100%;
+        border: none;
+        margin: auto;
+        padding-bottom: 3rem;
+    }
+    .time h1{
+        font-size: 18px;
+    }
+    .time h3{
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .book-end-div{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .plane-logo{
+        width: 2rem;
+    }
+}
+
+
+
+/*1st tab device */
+@media screen and (min-width:577px) and (max-width: 992px) {
+    .booking-div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        width: 100%;
+    }
+    .bookcard{
+        width: 100%;
+    }
+    .logo-div{
+        width: 6rem;
+        border: none;
+        margin: auto;
+        padding-bottom: 2rem;
+    
+    }
+    .logoBook{
+        width: 5rem;
+    }
+    
+    .time-div{
+        width: 100%;
+        border: none;
+        margin: auto;
+    }
+    .time h1{
+        font-size: 25px;
+    }
+    .time h3{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .book-end-div{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .plane-logo{
+        width: 2rem;
+    }
+}
+
+
+
+/*2nd tab device */
+@media screen and (min-width:768px) and (max-width: 1180px) {
+    .booking-div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        width: 100%;
+    }
+    .bookcard{
+        width: 60%;
+    }
+    .logo-div{
+        width: 6rem;
+        margin: auto;
+        padding-bottom: 2rem;
+    
+    }
+    .logoBook{
+        width: 5rem;
+    }
+    
+    .time-div{
+        padding: 0%;
+        margin: 0%;
+        border: none;
+    }
+    .time h1{
+        font-size: 25px;
+    }
+    .time h3{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .book-end-div{
+        justify-content: center;
+        margin: auto;
+    }
+    .plane-logo{
+        width: 2rem;
+    }
+}
