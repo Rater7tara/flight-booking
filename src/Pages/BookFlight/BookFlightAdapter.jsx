@@ -3,8 +3,7 @@ import BookFlight from './BookFlight';
 
 const BookFlightAdapter = ({ item }) => {
 
-    const { airline_logo, price, total_duration, flights } = item;
-    console.log(item);
+    const { airline_logo, price, total_duration, flights,numAdults, numChildren } = item;
 
 
     return (
@@ -18,6 +17,8 @@ const BookFlightAdapter = ({ item }) => {
                     airline_logo={airline_logo}
                     price={price}
                     total_duration={total_duration}
+                    numAdults={numAdults}
+                    numChildren={numChildren}
 
 
                 ></BookFlight>

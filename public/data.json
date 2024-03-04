@@ -1,352 +1,203 @@
 [
     {
-        "id": 1,
-        "country": "United States",
-        "city": "New York City",
-        "airportId": "JFK",
-        "airportName": "John F. Kennedy International Airport"
+      "label": "New York City",
+      "value": "JFK"
     },
     {
-        "id": 2,
-        "country": "United Kingdom",
-        "city": "London",
-        "airportId": "LHR",
-        "airportName": "Heathrow Airport"
+      "label": "London",
+      "value": "LHR"
     },
     {
-        "id": 3,
-        "country": "France",
-        "city": "Paris",
-        "airportId": "CDG",
-        "airportName": "Charles de Gaulle Airport"
+      "label": "Paris",
+      "value": "CDG"
     },
     {
-        "id": 4,
-        "country": "China",
-        "city": "Beijing",
-        "airportId": "PEK",
-        "airportName": "Beijing Capital International Airport"
+      "label": "Beijing",
+      "value": "PEK"
     },
     {
-        "id": 5,
-        "country": "Germany",
-        "city": "Frankfurt",
-        "airportId": "FRA",
-        "airportName": "Frankfurt Airport"
+      "label": "Frankfurt",
+      "value": "FRA"
     },
     {
-        "id": 6,
-        "country": "Japan",
-        "city": "Tokyo",
-        "airportId": "HND",
-        "airportName": "Haneda Airport"
+      "label": "Tokyo",
+      "value": "HND"
     },
     {
-        "id": 7,
-        "country": "Canada",
-        "city": "Toronto",
-        "airportId": "YYZ",
-        "airportName": "Toronto Pearson International Airport"
+      "label": "Toronto",
+      "value": "YYZ"
     },
     {
-        "id": 8,
-        "country": "Australia",
-        "city": "Sydney",
-        "airportId": "SYD",
-        "airportName": "Sydney Airport"
+      "label": "Sydney",
+      "value": "SYD"
     },
     {
-        "id": 9,
-        "country": "Brazil",
-        "city": "São Paulo",
-        "airportId": "GRU",
-        "airportName": "São Paulo/Guarulhos International Airport"
+      "label": "São Paulo",
+      "value": "GRU"
     },
     {
-        "id": 10,
-        "country": "India",
-        "city": "New Delhi",
-        "airportId": "DEL",
-        "airportName": "Indira Gandhi International Airport"
+      "label": "New Delhi",
+      "value": "DEL"
     },
     {
-        "id": 11,
-        "country": "Russia",
-        "city": "Moscow",
-        "airportId": "SVO",
-        "airportName": "Sheremetyevo International Airport"
+      "label": "Moscow",
+      "value": "SVO"
     },
     {
-        "id": 12,
-        "country": "Italy",
-        "city": "Rome",
-        "airportId": "FCO",
-        "airportName": "Leonardo da Vinci–Fiumicino Airport"
+      "label": "Rome",
+      "value": "FCO"
     },
     {
-        "id": 13,
-        "country": "South Korea",
-        "city": "Seoul",
-        "airportId": "ICN",
-        "airportName": "Incheon International Airport"
+      "label": "Seoul",
+      "value": "ICN"
     },
     {
-        "id": 14,
-        "country": "Spain",
-        "city": "Madrid",
-        "airportId": "MAD",
-        "airportName": "Adolfo Suárez Madrid–Barajas Airport"
+      "label": "Madrid",
+      "value": "MAD"
     },
     {
-        "id": 15,
-        "country": "Mexico",
-        "city": "Mexico City",
-        "airportId": "MEX",
-        "airportName": "Mexico City International Airport"
+      "label": "Mexico City",
+      "value": "MEX"
     },
     {
-        "id": 16,
-        "country": "Indonesia",
-        "city": "Jakarta",
-        "airportId": "CGK",
-        "airportName": "Soekarno–Hatta International Airport"
+      "label": "Jakarta",
+      "value": "CGK"
     },
     {
-        "id": 17,
-        "country": "Netherlands",
-        "city": "Amsterdam",
-        "airportId": "AMS",
-        "airportName": "Amsterdam Airport Schiphol"
+      "label": "Amsterdam",
+      "value": "AMS"
     },
     {
-        "id": 18,
-        "country": "Turkey",
-        "city": "Istanbul",
-        "airportId": "IST",
-        "airportName": "Istanbul Airport"
+      "label": "Istanbul",
+      "value": "IST"
     },
     {
-        "id": 19,
-        "country": "Saudi Arabia",
-        "city": "Riyadh",
-        "airportId": "RUH",
-        "airportName": "King Khalid International Airport"
+      "label": "Riyadh",
+      "value": "RUH"
     },
     {
-        "id": 20,
-        "country": "Switzerland",
-        "city": "Zurich",
-        "airportId": "ZRH",
-        "airportName": "Zurich Airport"
+      "label": "Zurich",
+      "value": "ZRH"
     },
     {
-        "id": 21,
-        "country": "Sweden",
-        "city": "Stockholm",
-        "airportId": "ARN",
-        "airportName": "Stockholm Arlanda Airport"
+      "label": "Stockholm",
+      "value": "ARN"
     },
     {
-        "id": 22,
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "airportId": "EZE",
-        "airportName": "Ministro Pistarini International Airport"
+      "label": "Buenos Aires",
+      "value": "EZE"
     },
     {
-        "id": 23,
-        "country": "Norway",
-        "city": "Oslo",
-        "airportId": "OSL",
-        "airportName": "Oslo Airport, Gardermoen"
+      "label": "Oslo",
+      "value": "OSL"
     },
     {
-        "id": 24,
-        "country": "Austria",
-        "city": "Vienna",
-        "airportId": "VIE",
-        "airportName": "Vienna International Airport"
+      "label": "Vienna",
+      "value": "VIE"
     },
     {
-        "id": 25,
-        "country": "United Arab Emirates",
-        "city": "Dubai",
-        "airportId": "DXB",
-        "airportName": "Dubai International Airport"
+      "label": "Dubai",
+      "value": "DXB"
     },
     {
-        "id": 26,
-        "country": "Belgium",
-        "city": "Brussels",
-        "airportId": "BRU",
-        "airportName": "Brussels Airport"
+      "label": "Brussels",
+      "value": "BRU"
     },
     {
-        "id": 27,
-        "country": "Poland",
-        "city": "Warsaw",
-        "airportId": "WAW",
-        "airportName": "Warsaw Chopin Airport"
+      "label": "Warsaw",
+      "value": "WAW"
     },
     {
-        "id": 28,
-        "country": "South Africa",
-        "city": "Johannesburg",
-        "airportId": "JNB",
-        "airportName": "OR Tambo International Airport"
+      "label": "Johannesburg",
+      "value": "JNB"
     },
     {
-        "id": 29,
-        "country": "Singapore",
-        "city": "Singapore",
-        "airportId": "SIN",
-        "airportName": "Singapore Changi Airport"
+      "label": "Singapore",
+      "value": "SIN"
     },
     {
-        "id": 30,
-        "country": "Denmark",
-        "city": "Copenhagen",
-        "airportId": "CPH",
-        "airportName": "Copenhagen Airport"
+      "label": "Copenhagen",
+      "value": "CPH"
     },
     {
-        "id": 31,
-        "country": "Qatar",
-        "city": "Doha",
-        "airportId": "DOH",
-        "airportName": "Hamad International Airport"
+      "label": "Doha",
+      "value": "DOH"
     },
     {
-        "id": 32,
-        "country": "Finland",
-        "city": "Helsinki",
-        "airportId": "HEL",
-        "airportName": "Helsinki Airport"
+      "label": "Helsinki",
+      "value": "HEL"
     },
     {
-        "id": 33,
-        "country": "Egypt",
-        "city": "Cairo",
-        "airportId": "CAI",
-        "airportName": "Cairo International Airport"
+      "label": "Cairo",
+      "value": "CAI"
     },
     {
-        "id": 34,
-        "country": "Greece",
-        "city": "Athens",
-        "airportId": "ATH",
-        "airportName": "Athens International Airport"
+      "label": "Athens",
+      "value": "ATH"
     },
     {
-        "id": 35,
-        "country": "Portugal",
-        "city": "Lisbon",
-        "airportId": "LIS",
-        "airportName": "Lisbon Airport"
+      "label": "Lisbon",
+      "value": "LIS"
     },
     {
-        "id": 36,
-        "country": "Malaysia",
-        "city": "Kuala Lumpur",
-        "airportId": "KUL",
-        "airportName": "Kuala Lumpur International Airport"
+      "label": "Kuala Lumpur",
+      "value": "KUL"
     },
     {
-        "id": 37,
-        "country": "Hong Kong",
-        "city": "Hong Kong",
-        "airportId": "HKG",
-        "airportName": "Hong Kong International Airport"
+      "label": "Hong Kong",
+      "value": "HKG"
     },
     {
-        "id": 38,
-        "country": "Czech Republic",
-        "city": "Prague",
-        "airportId": "PRG",
-        "airportName": "Václav Havel Airport Prague"
+      "label": "Prague",
+      "value": "PRG"
     },
     {
-        "id": 39,
-        "country": "New Zealand",
-        "city": "Auckland",
-        "airportId": "AKL",
-        "airportName": "Auckland Airport"
+      "label": "Auckland",
+      "value": "AKL"
     },
     {
-        "id": 40,
-        "country": "Ireland",
-        "city": "Dublin",
-        "airportId": "DUB",
-        "airportName": "Dublin Airport"
+      "label": "Dublin",
+      "value": "DUB"
     },
     {
-        "id": 41,
-        "country": "Hungary",
-        "city": "Budapest",
-        "airportId": "BUD",
-        "airportName": "Budapest Ferenc Liszt International Airport"
+      "label": "Budapest",
+      "value": "BUD"
     },
     {
-        "id": 42,
-        "country": "Chile",
-        "city": "Santiago",
-        "airportId": "SCL",
-        "airportName": "Arturo Merino Benítez International Airport"
+      "label": "Santiago",
+      "value": "SCL"
     },
     {
-        "id": 43,
-        "country": "Philippines",
-        "city": "Manila",
-        "airportId": "MNL",
-        "airportName": "Ninoy Aquino International Airport"
+      "label": "Manila",
+      "value": "MNL"
     },
     {
-        "id": 44,
-        "country": "Pakistan",
-        "city": "Islamabad",
-        "airportId": "ISB",
-        "airportName": "Islamabad International Airport"
+      "label": "Islamabad",
+      "value": "ISB"
     },
     {
-        "id": 45,
-        "country": "Romania",
-        "city": "Bucharest",
-        "airportId": "OTP",
-        "airportName": "Henri Coandă International Airport"
+      "label": "Bucharest",
+      "value": "OTP"
     },
     {
-        "id": 46,
-        "country": "Azerbaijan",
-        "city": "Baku",
-        "airportId": "GYD",
-        "airportName": "Heydar Aliyev International Airport"
+      "label": "Baku",
+      "value": "GYD"
     },
     {
-        "id": 47,
-        "country": "Nigeria",
-        "city": "Lagos",
-        "airportId": "LOS",
-        "airportName": "Murtala Muhammed International Airport"
+      "label": "Lagos",
+      "value": "LOS"
     },
     {
-        "id": 48,
-        "country": "Bangladesh",
-        "city": "Dhaka",
-        "airportId": "DAC",
-        "airportName": "Shahjalal International Airport"
+      "label": "Dhaka",
+      "value": "DAC"
     },
     {
-        "id": 49,
-        "country": "Sri Lanka",
-        "city": "Colombo",
-        "airportId": "CMB",
-        "airportName": "Bandaranaike International Airport"
+      "label": "Colombo",
+      "value": "CMB"
     },
     {
-        "id": 50,
-        "country": "Kenya",
-        "city": "Nairobi",
-        "airportId": "NBO",
-        "airportName": "Jomo Kenyatta International Airport"
+      "label": "Nairobi",
+      "value": "NBO"
     }
-]
+  ]
+  

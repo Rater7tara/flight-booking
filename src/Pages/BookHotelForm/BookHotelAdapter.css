@@ -1,0 +1,10 @@
+.hotel-star{
+    width: 7rem;
+}
+.star{
+    font-size: 1.5rem;
+    color: gold;
+}
+.hotel-card{
+    height: 35vw;
+}

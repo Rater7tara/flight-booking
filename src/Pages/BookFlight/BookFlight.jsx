@@ -17,7 +17,7 @@ const BookFlight = ({ airline_logo, price, total_duration, subItem }) => {
                     </div>
                     <div className='flex justify-around time-div border-e-2 m-auto'>
                         <div className='time'>
-                            <h1 className='font-semibold text-3xl text-center'>{departure_airport.time}</h1>
+                            <h1 className='font-semibold text-3xl text-center'>{departure_airport.time.slice(11, 16)}</h1>
                             <h3 className='text-md text-gray-400'>{departure_airport.name}</h3>
                         </div>
                         <div className="flex flex-col w-50 my-auto">
