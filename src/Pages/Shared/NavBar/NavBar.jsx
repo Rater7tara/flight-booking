@@ -25,7 +25,7 @@ const NavBar = () => {
         {navOptions}
       </ul>
     </div>
-    <a className="btn btn-ghost text-2xl text-yellow-500">CozyInn</a>
+    <a href='/' className="btn btn-ghost text-2xl text-yellow-500">CozyInn</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

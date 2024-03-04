@@ -3,13 +3,15 @@ import './BookHotelForm.css';
 import logo from '../../assets/plane-ticket.png';
 import plane from '../../assets/logo.png';
 
-const BookHotelForm = () => {
+const BookHotelForm = ({book}) => {
+    const {city} = book;
+    console.log(book);
 
 
 
 
     return (
-        <div className="pt-24 p-10 md:flex justify-center m-auto">
+        <div className="pt-16 p-10 md:flex justify-center m-auto">
 <div className="card bookcard bg-base-100 shadow-xl px-4 py-5 m-auto">
   <div className="flex booking-div">
     <div className='logo-div border-e-2'>
@@ -18,7 +20,7 @@ const BookHotelForm = () => {
     <div className='flex time-div border-e-2 m-auto'>
         <div className='time'>
             <h1 className='font-semibold text-3xl'>11.30</h1>
-            <h3 className='text-md text-gray-400'>City Name</h3>
+            <h3 className='text-md text-gray-400'>{city}</h3>
         </div>
         <div className="flex flex-col w-50 my-auto">
             <div className='m-auto mb-2'><h3>flight num</h3></div>

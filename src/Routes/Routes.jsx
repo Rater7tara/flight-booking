@@ -19,10 +19,10 @@ export const router = createBrowserRouter([
                 path: '/',
                 element: <Home></Home>,
             },
-            {
-                path:'/booking',
-                element:<BookHotelForm></BookHotelForm>
-            }
+            // {
+            //     path:'/booking',
+            //     element:<BookHotelForm></BookHotelForm>
+            // }
         ]
     }
 ])
