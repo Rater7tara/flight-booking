@@ -10,7 +10,6 @@ const NavBar = () => {
       <Link to="" className='navlink rounded-md text-yellow-400 hover:text-yellow-600 font-bold  text-center p-3 me-2'>Verification</Link>
       <Link to="" className='navlink rounded-md text-yellow-400 hover:text-yellow-600 font-bold  text-center p-3 me-2'>Sign Up</Link>
       <Link to="" className='navlink rounded-md text-yellow-400 hover:text-yellow-600 font-bold  text-center p-3 me-2'>Login</Link>
-      <Link to="" className='navlink rounded-md text-yellow-400 hover:text-yellow-600 font-bold text-center p-3 me-2'>Help</Link>
     </>
 
 

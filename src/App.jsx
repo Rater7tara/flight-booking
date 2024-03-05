@@ -7,8 +7,9 @@ function App() {
 
   return (
     <>
+    <NavBar></NavBar>
       <Outlet></Outlet>
-      {/* <Footer></Footer> */}
+      
     </>
   )
 }

@@ -6,7 +6,6 @@ import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import BookHotelAdapter from '../BookHotelForm/BookHotelAdapter';
 import NavBar from '../Shared/NavBar/NavBar';
-import Footer from '../Shared/Footer/Footer';
 
 
 const Banner = () => {
@@ -225,7 +224,7 @@ const Banner = () => {
             )}
 
             {selectedTab === 'hotel' && (
-                <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 p-4 hotel-bg'>
+                <div className='hotel-card-main grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 p-4 hotel-bg'>
                     {hotel?.map(item => (
                         <BookHotelAdapter
                             key={item.id}

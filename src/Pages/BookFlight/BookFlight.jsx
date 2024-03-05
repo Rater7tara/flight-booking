@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../assets/plane-ticket.png';
 import plane from '../../assets/logo.png';
+import './BookFlight.css';
 
 const BookFlight = ({ airline_logo, price, total_duration, subItem }) => {
     const { departure_airport, arrival_airport, airplane, airline, travel_class } = subItem;
@@ -8,14 +9,14 @@ const BookFlight = ({ airline_logo, price, total_duration, subItem }) => {
 
 
     return (
-        <div className="p-5 md:flex justify-center m-auto">
+        <div className="flight-main p-5 md:flex justify-center m-auto">
             <div className="card bookcard bg-base-100 shadow-xl px-4 py-5 m-auto">
                 <div className="flex booking-div">
                     <div className='logo-div border-e-2'>
                         <img className='logoBook' src={airline_logo} alt="" />
                         <h1 className='text-center text-gray-400'>{airline}</h1>
                     </div>
-                    <div className='flex justify-around time-div border-e-2 m-auto'>
+                    <div className='flex justify-around time-div border-e-2 m-auto sm:shadow-lg'>
                         <div className='time'>
                             <h1 className='font-semibold text-3xl text-center'>{departure_airport.time.slice(11, 16)}</h1>
                             <h3 className='text-md text-gray-400'>{departure_airport.name}</h3>

@@ -7,7 +7,7 @@ const BookFlightAdapter = ({ item }) => {
 
 
     return (
-        <div>
+        <div className='flight-m-div'>
 
             {flights?.map(subItem => (
 

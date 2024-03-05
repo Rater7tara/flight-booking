@@ -1,0 +1,357 @@
+.banner-img-div {
+    background-image: url('https://i.ibb.co/tHhCMyW/sunset-time-tropical-beach-sea-with-coconut-palm-tree-min.jpg');
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 88vh;
+    background-position: center;
+    display: block;
+    object-fit: cover;
+}
+
+.form-font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.des-dep{
+    width: 13rem;
+}
+
+.search-form {
+    position: absolute;
+    display: flex;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: black;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    top: 50%;
+    padding: 3rem;
+    justify-content: space-around;
+    /* max-width: 800px; */
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    border: 1px solid rgb(207, 206, 206);
+}
+
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-input,
+.form-select,
+.search-button {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.search-button {
+    color: #fff;
+    width: 7rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    background-color: rgb(255, 208, 0);
+    margin: auto;
+}
+
+.search-button:hover {
+    background-color: #dbbc34;
+    color: #000000;
+
+}
+
+.tab-btn {
+    position: relative;
+    transform: translateY(-50%);
+    z-index: 2;
+    top: 25%;
+}
+
+.hotel-card-main{
+    margin-top: 29rem;
+}
+
+.num-input {
+    width: 9rem;
+}
+
+.departure-form {
+    border: none;
+}
+
+.fly-div {
+    margin-top: 29rem;
+}
+.indicator-item{
+    width: 3rem;
+    height: 3rem;
+}
+
+/* 1st Mobile device */
+@media screen and (max-width:576px) {
+    .banner-img-div {
+        background-size: 100% 100%;
+        height: 88vh;
+        background-position: center;
+    }
+    
+    .search-form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        margin-top: 6rem;
+    }
+
+    .form-group {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+        border: 1px solid rgb(207, 206, 206);
+        background-color: white;
+    }
+ 
+    .search-button { 
+        margin-left: 6rem;
+    }
+    
+    .tab-btn {
+        position: relative;
+        transform: translateY(-50%);
+        z-index: 2;
+        top: 25%;
+    }
+    
+    .indicator-item{
+        width: 4rem;
+        height: 3rem;
+    }
+    .des-dep{
+        width: 100%;
+    }
+    .fly-div {
+        margin-top: 100%;
+    }
+}
+
+
+/* 2nd Mobile device */
+@media screen and (min-width:360px) and (max-width:575px) {
+    .banner-img-div {
+        background-size: 100% 100%;
+        height: 88vh;
+        background-position: center;
+    }
+    
+    .search-form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        margin-top: 6rem;
+    }
+
+    .form-group {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+        border: 1px solid rgb(207, 206, 206);
+        background-color: white;
+    }
+ 
+    .search-button { 
+        margin-left: 6rem;
+    }
+    
+    .tab-btn {
+        position: relative;
+        transform: translateY(-50%);
+        z-index: 2;
+        top: 25%;
+    }
+    
+    .indicator-item{
+        width: 4rem;
+        height: 3rem;
+    }
+    .des-dep{
+        width: 100%;
+    }
+    .fly-div {
+        margin-top: 100%;
+    }
+}
+
+/* 3rd Mobile device */
+@media screen and (min-width:280px) and (max-width:359px){
+    .banner-img-div {
+        background-size: 100% 100%;
+        height: 88vh;
+        background-position: center;
+    }
+    
+    .search-form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        margin-top: 6rem;
+    }
+
+    .form-group {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+        border: 1px solid rgb(207, 206, 206);
+        background-color: white;
+    }
+ 
+    .search-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-left: 83%;
+    }
+    .search-button { 
+        margin: auto;
+    }
+    
+    .tab-btn {
+        position: relative;
+        transform: translateY(-50%);
+        z-index: 2;
+        top: 25%;
+    }
+    
+    .indicator-item{
+        width: 4rem;
+        height: 3rem;
+    }
+    .des-dep{
+        width: 100%;
+    }
+    .fly-div {
+        margin-top: 100%;
+    }
+}
+
+
+
+/*1st tab device */
+@media screen and (min-width:577px) and (max-width: 992px) {
+    .banner-img-div {
+        background-size: 100% 100%;
+        height: 88vh;
+        background-position: center;
+    }
+    
+    .search-form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        margin-top: 6rem;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        text-align: center;
+        border: 1px solid rgb(207, 206, 206);
+        background-color: white;
+    }
+ 
+    .search-button { 
+        margin-left: 6rem;
+    }
+    
+    .tab-btn {
+        position: relative;
+        transform: translateY(-50%);
+        z-index: 2;
+        top: 25%;
+    }
+    
+    .indicator-item{
+        width: 4rem;
+        height: 3rem;
+    }
+    .des-dep{
+        width: 100%;
+    }
+    .search-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-left: 83%;
+    }
+    .search-button { 
+        margin: auto;
+    }
+    .fly-div {
+        margin-top: 100%;
+    }
+}
+
+
+
+/*2nd tab device */
+@media screen and (min-width:768px) and (max-width: 1180px) {
+    .banner-img-div {
+        background-size: 100% 100%;
+        height: 88vh;
+        background-position: center;
+    }
+    
+    .search-form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        text-align: center;
+        border: 1px solid rgb(207, 206, 206);
+        background-color: white;
+    }
+ 
+    .search-button { 
+        margin: auto;
+    }
+
+    .search-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-left: 85%;
+    }
+    
+    .tab-btn {
+        position: relative;
+        transform: translateY(-50%);
+        z-index: 2;
+        top: 25%;
+    }
+    
+    .indicator-item{
+        width: 4rem;
+        height: 3rem;
+    }
+    .des-dep{
+        width: 100%;
+    }
+    .fly-div {
+        margin-top: 100%;
+    }
+}
+

@@ -6,5 +6,58 @@
     color: gold;
 }
 .hotel-card{
-    height: 35vw;
+    height: 85vh;
+    width: 100%;
+}
+.hotel-img{
+    height: 29vh;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+.descrip{
+    height: 11vh;
+}
+.title{
+    height: 8vh;
+}
+
+/* 1st Mobile device */
+@media screen and (max-width:576px) {
+    .hotel-card{
+        width: 100%;
+    }
+}
+
+
+/* 2nd Mobile device */
+@media screen and (min-width:360px) and (max-width:575px) {
+    .hotel-card{
+        width: 100%;
+    }
+}
+
+/* 3rd Mobile device */
+@media screen and (min-width:280px) and (max-width:359px){
+    .hotel-card{
+        width: 100%;
+    }
+}
+
+
+
+/*1st tab device */
+@media screen and (min-width:577px) and (max-width: 992px) {
+    .hotel-card{
+        width: 100%;
+    }
+}
+
+
+
+/*2nd tab device */
+@media screen and (min-width:768px) and (max-width: 1180px) {
+    .hotel-card{
+        width: 100%;
+    }
 }
