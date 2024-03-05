@@ -9,6 +9,7 @@ import BookFlightAdapter from '../BookFlight/BookFlightAdapter';
 import { BsAirplane } from "react-icons/bs";
 import { FaHotel } from "react-icons/fa";
 import NavBar from '../Shared/NavBar/NavBar';
+import Loading from '../../components/Loading/Loading';
 
 const BannerForm = () => {
     const [formData, setFormData] = useState({
@@ -105,6 +106,7 @@ const BannerForm = () => {
 
     const handleSubmit = event => {
         event.preventDefault();
+        setIsLoading(true);
         const form = event.target;
         const departureDate = form.departureDate.value;
 
@@ -151,6 +153,10 @@ const BannerForm = () => {
     const handleTabChange = (tab) => {
         setSelectedTab(tab);
     };
+
+    if (isLoading) {
+        return <Loading></Loading> ;
+    }
 
     return (
         <div>

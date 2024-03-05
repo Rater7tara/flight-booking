@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../assets/plane-ticket.png';
 import plane from '../../assets/logo.png';
 import './BookFlight.css';
 
